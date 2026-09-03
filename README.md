@@ -31,6 +31,7 @@
 ---
 
 ## 📁 项目结构
+```bash
 src/
 ├── App.vue # 根组件（含导航栏）
 ├── main.ts # 应用入口，挂载路由
@@ -46,6 +47,7 @@ src/
 │ └── NavBar.vue # 导航组件
 └── styles/
 └── global.css # 全局样式
+```
 
 ## 🚀 快速开始
 
