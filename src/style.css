@@ -1,0 +1,79 @@
+:root {
+  --app-bg: #eef2f7;
+  --page-bg: #f8fbff;
+  --header-bg: #ffffff;
+  --aside-bg: #ffffff;
+  --card-bg: #ffffff;
+  --text-color: #24314a;
+  --text-muted: #6c7a92;
+  --border-color: rgba(34, 82, 151, 0.08);
+  --menu-bg: #ffffff;
+  --menu-text: #2d3a4d;
+  --menu-active-bg: #e8f0ff;
+  --menu-hover-bg: #f5f8ff;
+  --shadow: 0 10px 30px rgba(15, 35, 75, 0.08);
+  --card-shadow: 0 8px 24px rgba(15, 35, 75, 0.08);
+  --main-bg: #f5f7fb;
+  color: var(--text-color);
+  background-color: var(--app-bg);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--app-bg);
+  color: var(--text-color);
+}
+
+#app {
+  min-height: 100vh;
+  background-color: var(--app-bg);
+}
+
+a {
+  color: #4c6ef5;
+  text-decoration: none;
+}
+a:hover {
+  color: #3b5bdb;
+}
+
+button {
+  font-family: inherit;
+}
+
+.content-card {
+  height: 100%;
+}
+
+.dark-theme {
+  --app-bg: #111827;
+  --page-bg: #15202b;
+  --header-bg: #192b3b;
+  --aside-bg: #172436;
+  --card-bg: #1f3345;
+  --text-color: #e8eef7;
+  --text-muted: #9bb3ce;
+  --border-color: rgba(255, 255, 255, 0.12);
+  --menu-bg: #172436;
+  --menu-text: #d9e2f1;
+  --menu-active-bg: rgba(66, 132, 255, 0.15);
+  --menu-hover-bg: rgba(255, 255, 255, 0.05);
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --main-bg: #121b2d;
+}
+
+.dark-theme body {
+  background-color: var(--app-bg);
+  color: var(--text-color);
+}
